@@ -2,10 +2,10 @@
 
 import inquirer from "inquirer"
 
-//1) Computer will generate a random number.
-//2) Take user input for guessing number.
-//3) Compare user input with computer generated number. 
-//4) Show result.
+//1) Computer will generate a random number.Done
+//2) Take user input for guessing number.Done
+//3) Compare user input with computer generated number.Show result.Done
+
 const randomNumber = Math.floor(Math.random()*6+1);
 console.log("Welcome to number Guessing Game");
 const answer = await inquirer.prompt
